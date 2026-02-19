@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Temporary debug files
+debug_output.txt
+output2.txt
+output3.txt
+output4.txt
+error_log.txt
+generate_data.py
+generate_missing_data.py
+inspect_data.py
+query_db.py
+run_sqlite.py
+# OS
+.DS_Store
+Thumbs.db

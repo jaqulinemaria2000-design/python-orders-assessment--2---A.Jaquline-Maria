@@ -1,0 +1,247 @@
+order_id,customer_id,order_date,amount,currency,status,items,is_valid_amount,is_outlier,name,email,country,signup_date,email_missing,payment_date,payment_method,paid_amount,order_year,payment_delay_days,is_fully_paid
+O00001,C0057,,382.17,USD,Canceled,"[{'sku': 'SKU410', 'qty': 1, 'unit_price': 94.82}]",True,False,  Kavya Das  ,kavya.das@corp.org,Spain,01/09/2024,False,,,0.0,,,False
+O00002,C0035,,302.15,USD,Canceled,,True,False,Vihaan Verma,MISSING,France,11/12/2024,True,,,0.0,,,False
+O00003,C0047,2025-09-28,157.72,USD,Canceled,,True,False,Karan Gupta,MISSING,U.K.,14-Sep-2025,True,,,0.0,2025.0,,False
+O00004,C0036,2025-02-04,280.78,GBP,Return,,True,False,  Kabir Iyer  ,kabir.iyer@corp.org,Spain,2024-09-11,False,,,0.0,2025.0,,False
+O00005,C0006,2025-07-12,325.21,EUR,Complete,,True,False,Kavya Sharma,kavya.sharma@example.com,France,16-Dec-2024,False,2025-12-20,PayPal,325.21,2025.0,161.0,True
+O00006,C0022,2025-04-26,144.64,GBP,Pending,,True,False,Dev Patel,dev.patel@example.com,U.S.,2025/12/26,False,,,0.0,2025.0,,False
+O00007,C0030,2025-06-23,120.9,INR,Pending,,True,False,Arjun Jain,arjun.jain@mail.com,India,01-21-2025,False,,,0.0,2025.0,,False
+O00008,C0014,2025-09-20,291.27,EUR,Pending,,True,False,Aisha Singh,aisha.singh@mail.com,France,09-Nov-2025,False,,,0.0,2025.0,,False
+O00009,C0021,2025-09-05,306.37,EUR,Refunded,,True,False,  Renée Khan  ,renée.khan@corp.org,Germany,04-May-2024,False,,,0.0,2025.0,,False
+O00010,C0010,2025-05-20,122.1,GBP,Pending,"[{'sku': 'SKU658', 'qty': 2, 'unit_price': 165.28}, {'sku': 'SKU544', 'qty': 3, 'unit_price': 83.95}, {'sku': 'SKU707', 'qty': 1, 'unit_price': 89.81}]",True,False,Maya Jain,maya.jain@example.com,Spain,2024/09/23,False,,,0.0,2025.0,,False
+O00011,C0044,2026-01-26,217.4,GBP,Unknown,,True,False,Manish Das,manish.das@corp.org,United States,2024-11-19,False,,,0.0,2026.0,,False
+O00012,C0043,2025-12-08,185.15,USD,Pending,,True,False,Siddharth Nair,siddharth.nair@example.com,Germany,2024/03/09,False,,,0.0,2025.0,,False
+O00013,C9005,2026-01-05,374.57,GBP,Pending,,True,False,,,,,,,,0.0,2026.0,,False
+O00014,C0001,2025-09-14,153.33,INR,Canceled,"[{'sku': 'SKU330', 'qty': 3, 'unit_price': 19.9}, {'sku': 'SKU762', 'qty': 2, 'unit_price': 5.0}]",True,False,Anaya Mehta,anaya.mehta@example.com,In,30-Sep-2025,False,,,0.0,2025.0,,False
+O00015,C0030,2025-07-10,375.19,EUR,Refunded,,True,False,Arjun Jain,arjun.jain@mail.com,India,01-21-2025,False,,,0.0,2025.0,,False
+O00016,C0010,2025-10-12,250.85,EUR,Return,,True,False,Maya Jain,maya.jain@example.com,Spain,2024/09/23,False,,,0.0,2025.0,,False
+O00017,C0006,2025-08-12,73.97,EUR,Completed,"[{'sku': 'SKU368', 'qty': 3, 'unit_price': 5.0}, {'sku': 'SKU343', 'qty': 1, 'unit_price': 133.91}, {'sku': 'SKU980', 'qty': 1, 'unit_price': 94.2}, {'sku': 'SKU153', 'qty': 1, 'unit_price': 49.65}]",True,False,Kavya Sharma,kavya.sharma@example.com,France,16-Dec-2024,False,2025-04-18,Cash,44.38,2025.0,-116.0,False
+O00017,C0006,2025-08-12,73.97,EUR,Completed,"[{'sku': 'SKU368', 'qty': 3, 'unit_price': 5.0}, {'sku': 'SKU343', 'qty': 1, 'unit_price': 133.91}, {'sku': 'SKU980', 'qty': 1, 'unit_price': 94.2}, {'sku': 'SKU153', 'qty': 1, 'unit_price': 49.65}]",True,False,Kavya Sharma,kavya.sharma@example.com,France,16-Dec-2024,False,,Bank Transfer,29.59,2025.0,,False
+O00018,C0003,2025-03-09,374.43,EUR,Pending,,True,False,Neha Sharma,josé.nair@corp.org,United States,2024/01/20,False,,,0.0,2025.0,,False
+O00019,C0023,2025-07-25,403.29,INR,Cancelled,"[{'sku': 'SKU541', 'qty': 3, 'unit_price': 57.01}]",True,False,Rohan Sharma,rohan.sharma@example.com,United States,29-Jun-2025,False,,,0.0,2025.0,,False
+O00020,C0002,2025-07-07,264.78,GBP,Shipped,,True,False,Søren Patel,søren.patel@mail.com,Spain,2024/05/14,False,2026-01-22,Cash,291.26,2025.0,199.0,True
+O00021,C0047,2026-01-19,71.94,GBP,Completed,,True,False,Karan Gupta,MISSING,U.K.,14-Sep-2025,True,2025-11-23,PayPal,0.0,2026.0,-57.0,False
+O00021,C0047,2026-01-19,71.94,GBP,Completed,,True,False,Karan Gupta,MISSING,U.K.,14-Sep-2025,True,,Bank Transfer,27.34,2026.0,,False
+O00022,C0033,2025-06-18,196.48,INR,Pending,,True,False,Diya Mehta,diya.mehta@corp.org,India,2025-05-07,False,,,0.0,2025.0,,False
+O00023,C0012,2025-09-12,117.56,EUR,Cancelled,,True,False,Søren Iyer,søren.iyer@mail.com,India,08-15-2025,False,,,0.0,2025.0,,False
+O00024,C0034,2025-04-23,290.56,EUR,Completed,,True,False,Riya Roy,riya.roy@corp.org,Bharat,02-Dec-2024,False,2025-07-17,UPI,290.56,2025.0,85.0,True
+O00025,C0033,2025-09-22,1.0,INR,Pending,"[{'sku': 'SKU526', 'qty': 2, 'unit_price': 10.15}, {'sku': 'SKU220', 'qty': 1, 'unit_price': 126.16}, {'sku': 'SKU400', 'qty': 2, 'unit_price': 63.77}, {'sku': 'SKU631', 'qty': 1, 'unit_price': 18.36}]",True,False,Diya Mehta,diya.mehta@corp.org,India,2025-05-07,False,,,0.0,2025.0,,False
+O00026,C0055,2025-12-31,216.6,EUR,Complete,,True,False,Vivek Roy,vivek.roy@example.com,Germany,12-24-2024,False,2025-08-31,Card,216.6,2025.0,-122.0,True
+O00027,C0010,2026-01-28,177.19,USD,Unknown,,True,False,Maya Jain,maya.jain@example.com,Spain,2024/09/23,False,,,0.0,2026.0,,False
+O00028,C0020,2025-12-07,387.57,INR,Complete,,True,False,Zoë Nair,zoë.nair@corp.org,Us,11-Aug-2024,False,,Bank Transfer,387.57,2025.0,,True
+O00029,C0004,2025-09-28,215.63,GBP,Refunded,,True,False,Manish Singh,manish.singh@mail.com,France,24-Apr-2025,False,,,0.0,2025.0,,False
+O00030,C0033,2025-10-31,282.07,GBP,Complete,,True,False,Diya Mehta,diya.mehta@corp.org,India,2025-05-07,False,2025-09-29,UPI,169.24,2025.0,-32.0,False
+O00030,C0033,2025-10-31,282.07,GBP,Complete,,True,False,Diya Mehta,diya.mehta@corp.org,India,2025-05-07,False,,UPI,112.83,2025.0,,False
+O00031,C0033,2025-07-16,-28.18,INR,Return,,False,False,Diya Mehta,diya.mehta@corp.org,India,2025-05-07,False,,,0.0,2025.0,,True
+O00032,C0053,2025-04-11,0.0,EUR,Completed,,False,False,Søren Khan,søren.khan@corp.org,Fr,03-May-2024,False,,,0.0,2025.0,,True
+O00033,C0054,2026-01-26,146.6,GBP,Shipped,,True,False,José Iyer,josé.iyer@example.com,United Kingdom,2024-05-26,False,,,0.0,2026.0,,False
+O00034,C0056,2025-09-13,216.74,INR,Shipped,,True,False,Łukasz Nair,łukasz.nair@example.com,U.K.,22/03/2025,False,2025-11-17,PayPal,216.74,2025.0,65.0,True
+O00035,C0029,2025-11-24,87.66,EUR,Completed,,True,False,Riya Patel,riya.patel@example.com,De,29/03/2024,False,,,0.0,2025.0,,False
+O00036,C0044,2025-07-23,311.78,GBP,Shipped,,True,False,Manish Das,manish.das@corp.org,United States,2024-11-19,False,,UPI,311.78,2025.0,,True
+O00037,C0028,2025-04-25,275.29,INR,Cancelled,,True,False,François Singh,françois.singh@example.com,India,2025/07/18,False,,,0.0,2025.0,,False
+O00038,C0031,2025-05-08,15000.0,EUR,Completed,,True,True,François Jain,françois.jain@mail.com,U.S.,28/04/2025,False,,Bank Transfer,15000.0,2025.0,,True
+O00039,C0023,2025-06-21,138.22,USD,Unknown,,True,False,Rohan Sharma,rohan.sharma@example.com,United States,29-Jun-2025,False,,,0.0,2025.0,,False
+O00040,C0044,2025-08-30,344.68,USD,Cancelled,,True,False,Manish Das,manish.das@corp.org,United States,2024-11-19,False,,,0.0,2025.0,,False
+O00041,C0003,2026-01-22,386.85,USD,Pending,,True,False,Neha Sharma,josé.nair@corp.org,United States,2024/01/20,False,,,0.0,2026.0,,False
+O00042,C0030,2025-11-10,245.47,INR,Complete,"[{'sku': 'SKU735', 'qty': 1, 'unit_price': 45.13}]",True,False,Arjun Jain,arjun.jain@mail.com,India,01-21-2025,False,,Bank Transfer,245.47,2025.0,,True
+O00043,C0011,2025-11-16,-17.85,USD,Return,,False,False,José Nair,josé.nair@corp.org,France,09-15-2025,False,,,0.0,2025.0,,True
+O00044,C0055,2025-11-09,44.21,GBP,Shipped,,True,False,Vivek Roy,vivek.roy@example.com,Germany,12-24-2024,False,2025-09-04,Cash,44.21,2025.0,-66.0,True
+O00045,C0045,2025-07-11,165.72,INR,Pending,"[{'sku': 'SKU434', 'qty': 1, 'unit_price': 84.64}]",True,False,Aditya Das,MISSING,United Kingdom,07-22-2024,True,,,0.0,2025.0,,False
+O00046,C0012,2026-02-03,101.01,GBP,Return,,True,False,Søren Iyer,søren.iyer@mail.com,India,08-15-2025,False,,,0.0,2026.0,,False
+O00047,C0032,2025-04-15,0.0,GBP,Complete,,False,False,Karan Sharma,karan.sharma@mail.com,U.K.,11/09/2025,False,,,0.0,2025.0,,True
+O00048,C0021,2025-05-07,49.97,USD,Canceled,,True,False,  Renée Khan  ,renée.khan@corp.org,Germany,04-May-2024,False,,,0.0,2025.0,,False
+O00049,C0034,2025-01-12,246.05,USD,Refunded,"[{'sku': 'SKU386', 'qty': 2, 'unit_price': 109.34}, {'sku': 'SKU314', 'qty': 1, 'unit_price': 74.3}]",True,False,Riya Roy,riya.roy@corp.org,Bharat,02-Dec-2024,False,,,0.0,2025.0,,False
+O00050,C0008,2025-05-17,242.97,USD,Shipped,"[{'sku': 'SKU480', 'qty': 1, 'unit_price': 46.63}]",True,False,François Khan,françois.khan@corp.org,United Kingdom,2024-10-04,False,2025-05-17,PayPal,218.67,2025.0,0.0,False
+O00051,C0052,2025-10-31,117.73,USD,Cancelled,"[{'sku': 'SKU493', 'qty': 1, 'unit_price': 5.07}, {'sku': 'SKU802', 'qty': 2, 'unit_price': 5.0}, {'sku': 'SKU138', 'qty': 1, 'unit_price': 80.99}, {'sku': 'SKU127', 'qty': 2, 'unit_price': 157.13}]",True,False,Meera Singh,meera.singh@mail.com,De,30/09/2024,False,,,0.0,2025.0,,False
+O00052,C0014,2025-08-11,106.96,USD,Canceled,,True,False,Aisha Singh,aisha.singh@mail.com,France,09-Nov-2025,False,,,0.0,2025.0,,False
+O00053,C0045,2025-08-28,539.62,USD,Shipped,,True,False,Aditya Das,MISSING,United Kingdom,07-22-2024,True,,,0.0,2025.0,,False
+O00054,C0004,2025-08-23,314.65,INR,Shipped,"[{'sku': 'SKU941', 'qty': 1, 'unit_price': 24.21}, {'sku': 'SKU867', 'qty': 3, 'unit_price': 67.41}, {'sku': 'SKU829', 'qty': 1, 'unit_price': 31.35}]",True,False,Manish Singh,manish.singh@mail.com,France,24-Apr-2025,False,2026-03-07,PayPal,314.65,2025.0,196.0,True
+O00055,C0003,2025-08-31,,EUR,Refunded,,False,True,Neha Sharma,josé.nair@corp.org,United States,2024/01/20,False,,,0.0,2025.0,,False
+O00056,C0016,2025-11-16,6.5,EUR,Refunded,,True,False,Tanish Gupta,tanish.gupta@example.com,Spain,05-13-2024,False,,,0.0,2025.0,,False
+O00057,C0003,2025-05-13,168.79,GBP,Unknown,,True,False,Neha Sharma,josé.nair@corp.org,United States,2024/01/20,False,,,0.0,2025.0,,False
+O00058,C0011,2026-08-02,225.2,INR,Unknown,,True,False,José Nair,josé.nair@corp.org,France,09-15-2025,False,,,0.0,2026.0,,False
+O00059,C0002,2025-08-31,356.38,EUR,Pending,,True,False,Søren Patel,søren.patel@mail.com,Spain,2024/05/14,False,,,0.0,2025.0,,False
+O00060,C0052,2025-11-23,295.93,EUR,Completed,,True,False,Meera Singh,meera.singh@mail.com,De,30/09/2024,False,2025-04-27,Bank Transfer,295.93,2025.0,-210.0,True
+O00061,C0045,2025-08-08,132.7,INR,Refunded,,True,False,Aditya Das,MISSING,United Kingdom,07-22-2024,True,,,0.0,2025.0,,False
+O00062,C0044,2025-12-07,310.37,GBP,Shipped,,True,False,Manish Das,manish.das@corp.org,United States,2024-11-19,False,2026-01-18,Cash,155.18,2025.0,42.0,False
+O00063,C0037,2025-03-04,310.65,USD,Canceled,,True,False,Renée Mehta,renée.mehta@mail.com,India,04-27-2024,False,,,0.0,2025.0,,False
+O00064,C0030,2025-08-26,195.5,EUR,Return,,True,False,Arjun Jain,arjun.jain@mail.com,India,01-21-2025,False,,,0.0,2025.0,,False
+O00065,C0031,2025-09-04,0.0,INR,Complete,,False,False,François Jain,françois.jain@mail.com,U.S.,28/04/2025,False,,,0.0,2025.0,,True
+O00066,C0029,2025-09-07,246.92,USD,Pending,,True,False,Riya Patel,riya.patel@example.com,De,29/03/2024,False,,,0.0,2025.0,,False
+O00067,C0054,2025-12-30,-38.94,GBP,Cancelled,,False,False,José Iyer,josé.iyer@example.com,United Kingdom,2024-05-26,False,,,0.0,2025.0,,True
+O00068,C0054,2025-07-02,233.79,GBP,Pending,,True,False,José Iyer,josé.iyer@example.com,United Kingdom,2024-05-26,False,,,0.0,2025.0,,False
+O00069,C0011,2025-08-04,0.0,EUR,Cancelled,,False,False,José Nair,josé.nair@corp.org,France,09-15-2025,False,,,0.0,2025.0,,True
+O00070,C0026,2025-06-06,251.88,EUR,Completed,,True,False,Rohan Roy,rohan.roy@example.com,Spain,21-Apr-2025,False,,Card,251.88,2025.0,,True
+O00071,C0022,2025-10-28,41.97,GBP,Cancelled,,True,False,Dev Patel,dev.patel@example.com,U.S.,2025/12/26,False,,,0.0,2025.0,,False
+O00072,C0016,2025-03-12,0.0,EUR,Cancelled,"[{'sku': 'SKU396', 'qty': 3, 'unit_price': 57.66}, {'sku': 'SKU315', 'qty': 1, 'unit_price': 35.62}, {'sku': 'SKU726', 'qty': 1, 'unit_price': 69.4}, {'sku': 'SKU425', 'qty': 1, 'unit_price': 63.33}]",False,False,Tanish Gupta,tanish.gupta@example.com,Spain,05-13-2024,False,,,0.0,2025.0,,True
+O00073,C0038,2025-06-26,250.73,GBP,Unknown,"[{'sku': 'SKU229', 'qty': 2, 'unit_price': 36.99}, {'sku': 'SKU207', 'qty': 2, 'unit_price': 77.27}]",True,False,  Arjun Verma  ,arjun.verma@mail.com,France,2024-07-27,False,,,0.0,2025.0,,False
+O00074,C0003,2025-10-21,162.99,EUR,Unknown,,True,False,Neha Sharma,josé.nair@corp.org,United States,2024/01/20,False,,,0.0,2025.0,,False
+O00075,C0033,2026-01-13,323.68,INR,Canceled,,True,False,Diya Mehta,diya.mehta@corp.org,India,2025-05-07,False,,,0.0,2026.0,,False
+O00076,C0001,2025-08-13,91.0,INR,Shipped,,True,False,Anaya Mehta,anaya.mehta@example.com,In,30-Sep-2025,False,,,0.0,2025.0,,False
+O00077,C0056,2025-04-05,138.07,GBP,Return,,True,False,Łukasz Nair,łukasz.nair@example.com,U.K.,22/03/2025,False,,,0.0,2025.0,,False
+O00078,C0011,2026-02-07,227.46,USD,Completed,"[{'sku': 'SKU837', 'qty': 1, 'unit_price': 31.86}, {'sku': 'SKU681', 'qty': 3, 'unit_price': 5.0}, {'sku': 'SKU540', 'qty': 2, 'unit_price': 5.0}]",True,False,José Nair,josé.nair@corp.org,France,09-15-2025,False,2025-12-27,Bank Transfer,227.46,2026.0,-42.0,True
+O00079,C0030,2025-07-04,152.8,USD,Pending,,True,False,Arjun Jain,arjun.jain@mail.com,India,01-21-2025,False,,,0.0,2025.0,,False
+O00080,C0001,2025-11-16,264.62,EUR,Pending,,True,False,Anaya Mehta,anaya.mehta@example.com,In,30-Sep-2025,False,,,0.0,2025.0,,False
+O00081,C0007,2025-07-27,197.49,GBP,Canceled,,True,False,Søren Jain,søren.jain@corp.org,United Kingdom,2024/02/29,False,,,0.0,2025.0,,False
+O00082,C0023,2025-03-04,133.37,USD,Refunded,,True,False,Rohan Sharma,rohan.sharma@example.com,United States,29-Jun-2025,False,,,0.0,2025.0,,False
+O00083,C0009,2026-01-28,84.22,USD,Pending,,True,False,Karan Gupta,karan.gupta@corp.org,U.S.,27-Apr-2025,False,,,0.0,2026.0,,False
+O00084,C0023,2025-09-22,194.31,GBP,Unknown,"[{'sku': 'SKU544', 'qty': 1, 'unit_price': 108.7}]",True,False,Rohan Sharma,rohan.sharma@example.com,United States,29-Jun-2025,False,,,0.0,2025.0,,False
+O00085,C0034,2025-12-24,469.51,EUR,Completed,,True,False,Riya Roy,riya.roy@corp.org,Bharat,02-Dec-2024,False,,UPI,469.51,2025.0,,True
+O00086,C0051,2025-05-08,73.95,USD,Shipped,,True,False,Manish Sharma,MISSING,In,2026/01/13,True,,,0.0,2025.0,,False
+O00087,C0027,2025-09-04,311.33,INR,Pending,,True,False,Meera Jain,meera.jain@corp.org,United States,29/03/2025,False,,,0.0,2025.0,,False
+O00088,C0020,2025-05-22,277.15,EUR,Refunded,,True,False,Zoë Nair,zoë.nair@corp.org,Us,11-Aug-2024,False,,,0.0,2025.0,,False
+O00089,C0040,2025-06-11,524.55,INR,Shipped,,True,False,Manish Jain,manish.jain@mail.com,Germany,18-Jun-2024,False,,,0.0,2025.0,,False
+O00090,C0038,2025-10-17,337.52,INR,Cancelled,,True,False,  Arjun Verma  ,arjun.verma@mail.com,France,2024-07-27,False,,,0.0,2025.0,,False
+O00091,C0016,2025-04-17,85.31,INR,Canceled,,True,False,Tanish Gupta,tanish.gupta@example.com,Spain,05-13-2024,False,,,0.0,2025.0,,False
+O00092,C0008,2026-01-24,85.56,GBP,Return,,True,False,François Khan,françois.khan@corp.org,United Kingdom,2024-10-04,False,,,0.0,2026.0,,False
+O00093,C0024,2025-04-21,210.92,INR,Return,,True,False,José Mehta,josé.mehta@mail.com,Fr,20-Nov-2025,False,,,0.0,2025.0,,False
+O00094,C9003,2026-02-10,60.33,GBP,Completed,,True,False,,,,,,,,0.0,2026.0,,False
+O00095,C0039,2025-08-18,263.2,USD,Completed,,True,False,Meera Verma,meera.verma@corp.org,Spain,04-19-2024,False,2025-05-28,PayPal,263.2,2025.0,-82.0,True
+O00096,C0025,2025-12-08,332.31,INR,Completed,,True,False,Aditya Gupta,aditya.gupta@mail.com,Es,30/07/2024,False,,UPI,332.31,2025.0,,True
+O00097,C0015,2025-05-12,187.69,GBP,Completed,,True,False,Ishaan Khan,ishaan.khan@corp.org,United Kingdom,06-24-2025,False,2025-06-10,Card,168.92,2025.0,29.0,False
+O00098,C0041,2025-12-09,220.74,GBP,Shipped,"[{'sku': 'SKU151', 'qty': 2, 'unit_price': 14.29}]",True,False,Sneha Das,sneha.das@corp.org,De,02-Oct-2025,False,,Card,220.74,2025.0,,True
+O00099,C0059,2026-01-26,,GBP,Completed,"[{'sku': 'SKU224', 'qty': 2, 'unit_price': 5.0}]",False,True,Rahul Gupta,rahul.gupta@example.com,France,12/05/2025,False,2025-07-25,Bank Transfer,0.0,2026.0,-185.0,False
+O00100,C0036,2025-04-04,8.12,GBP,Canceled,,True,False,  Kabir Iyer  ,kabir.iyer@corp.org,Spain,2024-09-11,False,,,0.0,2025.0,,False
+O00101,C0029,2026-01-25,299.11,EUR,Cancelled,,True,False,Riya Patel,riya.patel@example.com,De,29/03/2024,False,,,0.0,2026.0,,False
+O00102,C0011,2025-07-15,-9.37,GBP,Pending,,False,False,José Nair,josé.nair@corp.org,France,09-15-2025,False,,,0.0,2025.0,,True
+O00103,C0051,2025-08-20,67.73,EUR,Pending,"[{'sku': 'SKU898', 'qty': 1, 'unit_price': 56.12}]",True,False,Manish Sharma,MISSING,In,2026/01/13,True,,,0.0,2025.0,,False
+O00104,C0030,2025-12-13,402.81,INR,Completed,,True,False,Arjun Jain,arjun.jain@mail.com,India,01-21-2025,False,,,0.0,2025.0,,False
+O00105,C0025,2025-11-24,179.29,USD,Canceled,,True,False,Aditya Gupta,aditya.gupta@mail.com,Es,30/07/2024,False,,,0.0,2025.0,,False
+O00106,C0036,2025-11-11,203.46,INR,Refunded,,True,False,  Kabir Iyer  ,kabir.iyer@corp.org,Spain,2024-09-11,False,,,0.0,2025.0,,False
+O00107,C0005,2025-04-12,160.42,EUR,Complete,"[{'sku': 'SKU233', 'qty': 3, 'unit_price': 88.63}, {'sku': 'SKU155', 'qty': 3, 'unit_price': 94.94}]",True,False,Rohan Nair,rohan.nair@mail.com,Us,01-Oct-2024,False,,,0.0,2025.0,,False
+O00108,C0044,2025-06-05,224.29,GBP,Canceled,"[{'sku': 'SKU938', 'qty': 2, 'unit_price': 5.59}]",True,False,Manish Das,manish.das@corp.org,United States,2024-11-19,False,,,0.0,2025.0,,False
+O00109,C0024,2025-11-24,337.47,EUR,Return,,True,False,José Mehta,josé.mehta@mail.com,Fr,20-Nov-2025,False,,,0.0,2025.0,,False
+O00110,C0052,2026-04-01,226.89,EUR,Cancelled,,True,False,Meera Singh,meera.singh@mail.com,De,30/09/2024,False,,,0.0,2026.0,,False
+O00111,C0059,2025-04-03,274.12,USD,Shipped,,True,False,Rahul Gupta,rahul.gupta@example.com,France,12/05/2025,False,,UPI,274.12,2025.0,,True
+O00112,C0044,2025-04-14,253.99,INR,Complete,,True,False,Manish Das,manish.das@corp.org,United States,2024-11-19,False,2025-05-05,Cash,152.39,2025.0,21.0,False
+O00112,C0044,2025-04-14,253.99,INR,Complete,,True,False,Manish Das,manish.das@corp.org,United States,2024-11-19,False,,Cash,101.6,2025.0,,False
+O00113,C0054,2025-09-29,109.17,GBP,Completed,,True,False,José Iyer,josé.iyer@example.com,United Kingdom,2024-05-26,False,2025-10-15,Cash,109.17,2025.0,16.0,True
+O00114,C0060,2025-04-24,138.61,USD,Unknown,,True,False,Aarav Das,aarav.das@corp.org,India,12-Aug-2024,False,,,0.0,2025.0,,False
+O00115,C0032,2025-04-17,327.46,EUR,Completed,,True,False,Karan Sharma,karan.sharma@mail.com,U.K.,11/09/2025,False,,Card,196.48,2025.0,,False
+O00115,C0032,2025-04-17,327.46,EUR,Completed,,True,False,Karan Sharma,karan.sharma@mail.com,U.K.,11/09/2025,False,2025-10-03,Card,130.98,2025.0,169.0,False
+O00116,C0046,2026-02-03,252.25,GBP,Completed,,True,False,Kavya Sharma,kavya.sharma@mail.com,In,2025/05/12,False,,Card,252.25,2026.0,,True
+O00117,C0024,2025-11-09,575.31,INR,Pending,,True,False,José Mehta,josé.mehta@mail.com,Fr,20-Nov-2025,False,,,0.0,2025.0,,False
+O00118,C0041,2025-02-06,252.14,USD,Unknown,,True,False,Sneha Das,sneha.das@corp.org,De,02-Oct-2025,False,,,0.0,2025.0,,False
+O00119,C0056,2025-06-01,225.33,INR,Completed,,True,False,Łukasz Nair,łukasz.nair@example.com,U.K.,22/03/2025,False,,,0.0,2025.0,,False
+O00120,C0015,2025-11-05,350.11,USD,Completed,"[{'sku': 'SKU843', 'qty': 3, 'unit_price': 57.25}]",True,False,Ishaan Khan,ishaan.khan@corp.org,United Kingdom,06-24-2025,False,,Bank Transfer,350.11,2025.0,,True
+O00121,C0031,2026-02-01,206.53,EUR,Shipped,,True,False,François Jain,françois.jain@mail.com,U.S.,28/04/2025,False,2025-07-07,PayPal,206.53,2026.0,-209.0,True
+O00122,C0020,2025-11-13,7.23,GBP,Shipped,"[{'sku': 'SKU251', 'qty': 1, 'unit_price': 18.01}, {'sku': 'SKU464', 'qty': 3, 'unit_price': 76.94}]",True,False,Zoë Nair,zoë.nair@corp.org,Us,11-Aug-2024,False,2025-12-02,PayPal,7.23,2025.0,19.0,True
+O00123,C0024,2025-09-07,210.37,GBP,Cancelled,,True,False,José Mehta,josé.mehta@mail.com,Fr,20-Nov-2025,False,,,0.0,2025.0,,False
+O00124,C0016,2025-07-10,132.04,INR,Complete,"[{'sku': 'SKU739', 'qty': 2, 'unit_price': 58.05}, {'sku': 'SKU843', 'qty': 3, 'unit_price': 33.89}]",True,False,Tanish Gupta,tanish.gupta@example.com,Spain,05-13-2024,False,2025-05-11,Bank Transfer,132.04,2025.0,-60.0,True
+O00125,C0047,2025-12-27,203.05,GBP,Pending,"[{'sku': 'SKU909', 'qty': 2, 'unit_price': 35.99}, {'sku': 'SKU232', 'qty': 3, 'unit_price': 46.91}, {'sku': 'SKU766', 'qty': 1, 'unit_price': 48.79}, {'sku': 'SKU575', 'qty': 3, 'unit_price': 110.42}]",True,False,Karan Gupta,MISSING,U.K.,14-Sep-2025,True,,,0.0,2025.0,,False
+O00126,C0047,2025-10-05,274.85,INR,Pending,,True,False,Karan Gupta,MISSING,U.K.,14-Sep-2025,True,,,0.0,2025.0,,False
+O00127,C0049,2025-05-22,265.54,INR,Pending,"[{'sku': 'SKU685', 'qty': 3, 'unit_price': 11.29}, {'sku': 'SKU314', 'qty': 2, 'unit_price': 78.19}, {'sku': 'SKU407', 'qty': 2, 'unit_price': 32.03}, {'sku': 'SKU381', 'qty': 2, 'unit_price': 41.11}]",True,False,Dev Khan,dev.khan@example.com,India,15-Dec-2024,False,,,0.0,2025.0,,False
+O00128,C0018,2025-09-13,273.36,EUR,Shipped,,True,False,Aarav Jain,aarav.jain@example.com,In,2025-05-04,False,,PayPal,273.36,2025.0,,True
+O00129,C0059,2025-06-19,180.66,INR,Completed,,True,False,Rahul Gupta,rahul.gupta@example.com,France,12/05/2025,False,,,0.0,2025.0,,False
+O00130,C0037,2025-05-24,192.74,USD,Refunded,"[{'sku': 'SKU624', 'qty': 3, 'unit_price': 50.25}, {'sku': 'SKU375', 'qty': 3, 'unit_price': 90.7}]",True,False,Renée Mehta,renée.mehta@mail.com,India,04-27-2024,False,,,0.0,2025.0,,False
+O00131,C0026,2026-02-13,385.03,INR,Pending,,True,False,Rohan Roy,rohan.roy@example.com,Spain,21-Apr-2025,False,,,0.0,2026.0,,False
+O00132,C0048,2026-08-01,311.49,USD,Unknown,,True,False,Ira Khan,invalid_email,U.K.,2024/01/10,False,,,0.0,2026.0,,False
+O00133,C0002,2025-07-29,0.0,USD,Pending,,False,False,Søren Patel,søren.patel@mail.com,Spain,2024/05/14,False,,,0.0,2025.0,,True
+O00134,C0052,2025-03-08,87.75,USD,Canceled,,True,False,Meera Singh,meera.singh@mail.com,De,30/09/2024,False,,,0.0,2025.0,,False
+O00135,C0020,2025-09-03,250.46,USD,Pending,,True,False,Zoë Nair,zoë.nair@corp.org,Us,11-Aug-2024,False,,,0.0,2025.0,,False
+O00136,C0005,2025-06-17,103.95,USD,Completed,"[{'sku': 'SKU312', 'qty': 3, 'unit_price': 34.68}, {'sku': 'SKU127', 'qty': 1, 'unit_price': 64.37}, {'sku': 'SKU525', 'qty': 3, 'unit_price': 33.96}, {'sku': 'SKU490', 'qty': 1, 'unit_price': 72.64}]",True,False,Rohan Nair,rohan.nair@mail.com,Us,01-Oct-2024,False,,Bank Transfer,103.95,2025.0,,True
+O00137,C9005,2025-10-16,-30.32,INR,Completed,,False,False,,,,,,,,0.0,2025.0,,True
+O00138,C9001,2025-06-19,167.88,GBP,Completed,,True,False,,,,,,,PayPal,167.88,2025.0,,True
+O00139,C0022,2025-10-04,9999.99,USD,Complete,,True,True,Dev Patel,dev.patel@example.com,U.S.,2025/12/26,False,,Bank Transfer,9999.99,2025.0,,True
+O00140,C0046,2025-11-29,328.88,GBP,Pending,"[{'sku': 'SKU378', 'qty': 2, 'unit_price': 47.14}, {'sku': 'SKU449', 'qty': 3, 'unit_price': 69.99}, {'sku': 'SKU734', 'qty': 3, 'unit_price': 103.33}, {'sku': 'SKU673', 'qty': 2, 'unit_price': 5.0}]",True,False,Kavya Sharma,kavya.sharma@mail.com,In,2025/05/12,False,,,0.0,2025.0,,False
+O00141,C0032,2025-06-21,229.54,EUR,Return,,True,False,Karan Sharma,karan.sharma@mail.com,U.K.,11/09/2025,False,,,0.0,2025.0,,False
+O00142,C0057,2026-01-19,-33.47,EUR,Pending,,False,False,  Kavya Das  ,kavya.das@corp.org,Spain,01/09/2024,False,,,0.0,2026.0,,True
+O00143,C0027,2025-11-04,287.05,EUR,Return,,True,False,Meera Jain,meera.jain@corp.org,United States,29/03/2025,False,,,0.0,2025.0,,False
+O00144,C0007,2025-11-03,379.72,GBP,Pending,,True,False,Søren Jain,søren.jain@corp.org,United Kingdom,2024/02/29,False,,,0.0,2025.0,,False
+O00145,C0035,2025-11-17,1.0,EUR,Canceled,"[{'sku': 'SKU211', 'qty': 1, 'unit_price': 106.17}, {'sku': 'SKU495', 'qty': 3, 'unit_price': 82.77}, {'sku': 'SKU918', 'qty': 2, 'unit_price': 38.4}, {'sku': 'SKU963', 'qty': 3, 'unit_price': 22.11}]",True,False,Vihaan Verma,MISSING,France,11/12/2024,True,,,0.0,2025.0,,False
+O00146,C0051,2025-04-27,86.73,GBP,Shipped,,True,False,Manish Sharma,MISSING,In,2026/01/13,True,,UPI,86.73,2025.0,,True
+O00147,C0009,2025-09-01,296.46,EUR,Pending,,True,False,Karan Gupta,karan.gupta@corp.org,U.S.,27-Apr-2025,False,,,0.0,2025.0,,False
+O00148,C0048,2025-04-02,418.15,EUR,Return,"[{'sku': 'SKU925', 'qty': 3, 'unit_price': 71.54}, {'sku': 'SKU746', 'qty': 1, 'unit_price': 27.82}]",True,False,Ira Khan,invalid_email,U.K.,2024/01/10,False,,,0.0,2025.0,,False
+O00149,C0040,2025-04-19,155.45,EUR,Cancelled,"[{'sku': 'SKU752', 'qty': 3, 'unit_price': 125.81}]",True,False,Manish Jain,manish.jain@mail.com,Germany,18-Jun-2024,False,,,0.0,2025.0,,False
+O00150,C0048,2025-04-24,376.85,EUR,Pending,,True,False,Ira Khan,invalid_email,U.K.,2024/01/10,False,,,0.0,2025.0,,False
+O00151,C9005,2025-04-07,-15.78,USD,Refunded,,False,False,,,,,,,,0.0,2025.0,,True
+O00152,C0036,2026-01-24,283.95,USD,Pending,,True,False,  Kabir Iyer  ,kabir.iyer@corp.org,Spain,2024-09-11,False,,,0.0,2026.0,,False
+O00153,C0007,2025-11-06,137.32,INR,Complete,,True,False,Søren Jain,søren.jain@corp.org,United Kingdom,2024/02/29,False,,,0.0,2025.0,,False
+O00154,C0048,2025-08-10,394.74,GBP,Refunded,,True,False,Ira Khan,invalid_email,U.K.,2024/01/10,False,,,0.0,2025.0,,False
+O00155,C0059,2025-10-14,0.0,EUR,Completed,,False,False,Rahul Gupta,rahul.gupta@example.com,France,12/05/2025,False,,,0.0,2025.0,,True
+O00156,C0041,2025-12-16,280.69,INR,Pending,"[{'sku': 'SKU786', 'qty': 1, 'unit_price': 58.32}, {'sku': 'SKU132', 'qty': 1, 'unit_price': 80.14}, {'sku': 'SKU346', 'qty': 2, 'unit_price': 106.48}, {'sku': 'SKU394', 'qty': 1, 'unit_price': 23.4}]",True,False,Sneha Das,sneha.das@corp.org,De,02-Oct-2025,False,,,0.0,2025.0,,False
+O00157,C0011,2025-10-29,362.15,GBP,Return,,True,False,José Nair,josé.nair@corp.org,France,09-15-2025,False,,,0.0,2025.0,,False
+O00158,C0015,2025-06-09,235.51,INR,Canceled,"[{'sku': 'SKU757', 'qty': 3, 'unit_price': 25.06}]",True,False,Ishaan Khan,ishaan.khan@corp.org,United Kingdom,06-24-2025,False,,,0.0,2025.0,,False
+O00159,C0048,2026-01-05,449.74,USD,Pending,"[{'sku': 'SKU612', 'qty': 2, 'unit_price': 80.36}]",True,False,Ira Khan,invalid_email,U.K.,2024/01/10,False,,,0.0,2026.0,,False
+O00160,C0032,2025-11-04,44.72,GBP,Completed,,True,False,Karan Sharma,karan.sharma@mail.com,U.K.,11/09/2025,False,2025-07-13,Card,44.72,2025.0,-114.0,True
+O00161,C0049,2025-09-13,241.12,USD,Pending,,True,False,Dev Khan,dev.khan@example.com,India,15-Dec-2024,False,,,0.0,2025.0,,False
+O00162,C0039,2025-07-17,0.0,USD,Canceled,,False,False,Meera Verma,meera.verma@corp.org,Spain,04-19-2024,False,,,0.0,2025.0,,True
+O00163,C0005,2025-12-08,226.65,USD,Complete,"[{'sku': 'SKU482', 'qty': 2, 'unit_price': 48.68}]",True,False,Rohan Nair,rohan.nair@mail.com,Us,01-Oct-2024,False,2025-05-22,PayPal,226.65,2025.0,-200.0,True
+O00164,C9001,2025-11-01,0.0,USD,Completed,,False,False,,,,,,,,0.0,2025.0,,True
+O00165,C0039,2025-11-01,366.7,EUR,Cancelled,"[{'sku': 'SKU843', 'qty': 3, 'unit_price': 32.0}, {'sku': 'SKU895', 'qty': 3, 'unit_price': 49.44}, {'sku': 'SKU855', 'qty': 2, 'unit_price': 122.5}, {'sku': 'SKU459', 'qty': 1, 'unit_price': 20.51}]",True,False,Meera Verma,meera.verma@corp.org,Spain,04-19-2024,False,,,0.0,2025.0,,False
+O00166,C9005,2026-10-02,199.34,GBP,Unknown,"[{'sku': 'SKU960', 'qty': 1, 'unit_price': 61.75}, {'sku': 'SKU546', 'qty': 1, 'unit_price': 6.8100000000000005}]",True,False,,,,,,,,0.0,2026.0,,False
+O00167,C0052,2025-04-04,348.11,EUR,Complete,"[{'sku': 'SKU577', 'qty': 2, 'unit_price': 60.23}]",True,False,Meera Singh,meera.singh@mail.com,De,30/09/2024,False,2025-10-31,Bank Transfer,348.11,2025.0,210.0,True
+O00168,C0052,2026-01-18,370.75,GBP,Pending,,True,False,Meera Singh,meera.singh@mail.com,De,30/09/2024,False,,,0.0,2026.0,,False
+O00169,C0001,2025-11-10,138.82,GBP,Refunded,,True,False,Anaya Mehta,anaya.mehta@example.com,In,30-Sep-2025,False,,,0.0,2025.0,,False
+O00170,C0010,2025-10-15,105.11,INR,Completed,,True,False,Maya Jain,maya.jain@example.com,Spain,2024/09/23,False,,Cash,105.11,2025.0,,True
+O00171,C0052,2025-10-04,90.81,GBP,Pending,,True,False,Meera Singh,meera.singh@mail.com,De,30/09/2024,False,,,0.0,2025.0,,False
+O00172,C0059,2025-07-16,49.19,GBP,Completed,,True,False,Rahul Gupta,rahul.gupta@example.com,France,12/05/2025,False,,Bank Transfer,49.19,2025.0,,True
+O00173,C0019,2025-05-23,240.38,GBP,Completed,,True,False,Ishaan Roy,ishaan.roy@example.com,United States,03-14-2024,False,2026-03-02,PayPal,240.38,2025.0,283.0,True
+O00174,C0015,2025-04-10,323.35,EUR,Pending,,True,False,Ishaan Khan,ishaan.khan@corp.org,United Kingdom,06-24-2025,False,,,0.0,2025.0,,False
+O00175,C0007,2026-12-01,81.95,GBP,Cancelled,,True,False,Søren Jain,søren.jain@corp.org,United Kingdom,2024/02/29,False,,,0.0,2026.0,,False
+O00176,C0039,2025-12-02,-6.08,EUR,Pending,"[{'sku': 'SKU486', 'qty': 2, 'unit_price': 16.15}, {'sku': 'SKU472', 'qty': 1, 'unit_price': 25.05}]",False,False,Meera Verma,meera.verma@corp.org,Spain,04-19-2024,False,,,0.0,2025.0,,True
+O00177,C0035,2025-05-13,329.21,GBP,Pending,,True,False,Vihaan Verma,MISSING,France,11/12/2024,True,,,0.0,2025.0,,False
+O00178,C0031,2026-02-14,271.65,GBP,Canceled,"[{'sku': 'SKU389', 'qty': 3, 'unit_price': 22.77}, {'sku': 'SKU596', 'qty': 2, 'unit_price': 77.55}, {'sku': 'SKU838', 'qty': 1, 'unit_price': 127.03}]",True,False,François Jain,françois.jain@mail.com,U.S.,28/04/2025,False,,,0.0,2026.0,,False
+O00179,C0035,2026-01-17,88.48,USD,Unknown,,True,False,Vihaan Verma,MISSING,France,11/12/2024,True,,,0.0,2026.0,,False
+O00180,C0028,2025-04-20,0.0,GBP,Pending,,False,False,François Singh,françois.singh@example.com,India,2025/07/18,False,,,0.0,2025.0,,True
+O00181,C0059,2025-10-05,0.0,GBP,Pending,,False,False,Rahul Gupta,rahul.gupta@example.com,France,12/05/2025,False,,,0.0,2025.0,,True
+O00182,C9005,2025-08-20,0.0,GBP,Completed,,False,False,,,,,,,,0.0,2025.0,,True
+O00183,C0052,2026-01-28,293.11,INR,Cancelled,"[{'sku': 'SKU472', 'qty': 3, 'unit_price': 66.06}, {'sku': 'SKU703', 'qty': 3, 'unit_price': 31.45}, {'sku': 'SKU197', 'qty': 3, 'unit_price': 56.14}]",True,False,Meera Singh,meera.singh@mail.com,De,30/09/2024,False,,,0.0,2026.0,,False
+O00184,C0010,2025-05-24,154.7,EUR,Cancelled,,True,False,Maya Jain,maya.jain@example.com,Spain,2024/09/23,False,,,0.0,2025.0,,False
+O00185,C0055,2025-12-08,270.66,GBP,Cancelled,,True,False,Vivek Roy,vivek.roy@example.com,Germany,12-24-2024,False,,,0.0,2025.0,,False
+O00186,C0008,2025-05-06,358.44,GBP,Return,"[{'sku': 'SKU204', 'qty': 2, 'unit_price': 87.4}, {'sku': 'SKU910', 'qty': 3, 'unit_price': 112.1}]",True,False,François Khan,françois.khan@corp.org,United Kingdom,2024-10-04,False,,,0.0,2025.0,,False
+O00187,C0045,2025-11-30,284.12,INR,Cancelled,,True,False,Aditya Das,MISSING,United Kingdom,07-22-2024,True,,,0.0,2025.0,,False
+O00188,C0043,2025-05-20,57.75,EUR,Completed,,True,False,Siddharth Nair,siddharth.nair@example.com,Germany,2024/03/09,False,2025-07-27,PayPal,57.75,2025.0,68.0,True
+O00189,C0003,2025-05-31,,GBP,Pending,,False,True,Neha Sharma,josé.nair@corp.org,United States,2024/01/20,False,,,0.0,2025.0,,False
+O00190,C0011,2025-08-13,224.38,EUR,Completed,"[{'sku': 'SKU191', 'qty': 1, 'unit_price': 85.94}, {'sku': 'SKU858', 'qty': 3, 'unit_price': 79.76}, {'sku': 'SKU868', 'qty': 3, 'unit_price': 64.14}, {'sku': 'SKU300', 'qty': 2, 'unit_price': 55.76}]",True,False,José Nair,josé.nair@corp.org,France,09-15-2025,False,,Bank Transfer,224.38,2025.0,,True
+O00191,C0048,2025-08-31,249.12,EUR,Unknown,,True,False,Ira Khan,invalid_email,U.K.,2024/01/10,False,,,0.0,2025.0,,False
+O00192,C0010,2025-12-09,166.2,INR,Pending,,True,False,Maya Jain,maya.jain@example.com,Spain,2024/09/23,False,,,0.0,2025.0,,False
+O00193,C0033,2025-09-10,98.81,GBP,Shipped,,True,False,Diya Mehta,diya.mehta@corp.org,India,2025-05-07,False,,,0.0,2025.0,,False
+O00194,C0056,2025-06-15,329.95,INR,Canceled,"[{'sku': 'SKU146', 'qty': 2, 'unit_price': 63.14}, {'sku': 'SKU180', 'qty': 3, 'unit_price': 89.19}, {'sku': 'SKU803', 'qty': 3, 'unit_price': 5.0}]",True,False,Łukasz Nair,łukasz.nair@example.com,U.K.,22/03/2025,False,,,0.0,2025.0,,False
+O00195,C0005,2025-10-20,1.0,INR,Pending,"[{'sku': 'SKU347', 'qty': 1, 'unit_price': 5.0}, {'sku': 'SKU982', 'qty': 2, 'unit_price': 28.71}, {'sku': 'SKU342', 'qty': 1, 'unit_price': 32.35}]",True,False,Rohan Nair,rohan.nair@mail.com,Us,01-Oct-2024,False,,,0.0,2025.0,,False
+O00196,C0028,2025-11-04,225.86,INR,Completed,"[{'sku': 'SKU131', 'qty': 2, 'unit_price': 72.25}]",True,False,François Singh,françois.singh@example.com,India,2025/07/18,False,2026-03-12,Card,225.86,2025.0,128.0,True
+O00197,C0046,2025-10-06,230.96,USD,Completed,"[{'sku': 'SKU512', 'qty': 3, 'unit_price': 60.92}, {'sku': 'SKU923', 'qty': 2, 'unit_price': 41.84}, {'sku': 'SKU179', 'qty': 2, 'unit_price': 96.59}]",True,False,Kavya Sharma,kavya.sharma@mail.com,In,2025/05/12,False,2025-08-18,PayPal,230.96,2025.0,-49.0,True
+O00198,C0005,2025-06-07,253.92,USD,Refunded,,True,False,Rohan Nair,rohan.nair@mail.com,Us,01-Oct-2024,False,,,0.0,2025.0,,False
+O00199,C0030,2025-12-17,186.57,GBP,Completed,,True,False,Arjun Jain,arjun.jain@mail.com,India,01-21-2025,False,2025-12-31,PayPal,186.57,2025.0,14.0,True
+O00200,C9001,2025-05-17,234.43,INR,Cancelled,,True,False,,,,,,,,0.0,2025.0,,False
+O00201,C0005,2025-06-25,66.92,GBP,Canceled,,True,False,Rohan Nair,rohan.nair@mail.com,Us,01-Oct-2024,False,,,0.0,2025.0,,False
+O00202,C0041,2026-01-22,-38.1,EUR,Canceled,,False,False,Sneha Das,sneha.das@corp.org,De,02-Oct-2025,False,,,0.0,2026.0,,True
+O00203,C0003,2025-12-09,182.84,USD,Cancelled,,True,False,Neha Sharma,josé.nair@corp.org,United States,2024/01/20,False,,,0.0,2025.0,,False
+O00204,C0057,2025-10-09,316.77,GBP,Unknown,,True,False,  Kavya Das  ,kavya.das@corp.org,Spain,01/09/2024,False,,,0.0,2025.0,,False
+O00205,C0042,2025-06-06,174.95,USD,Pending,,True,False,Arjun Patel,arjun.patel@corp.org,France,2025-01-29,False,,,0.0,2025.0,,False
+O00206,C0019,2025-10-09,71.58,USD,Canceled,,True,False,Ishaan Roy,ishaan.roy@example.com,United States,03-14-2024,False,,,0.0,2025.0,,False
+O00207,C0033,2025-07-31,247.55,INR,Pending,,True,False,Diya Mehta,diya.mehta@corp.org,India,2025-05-07,False,,,0.0,2025.0,,False
+O00208,C0049,2025-10-09,234.3,GBP,Completed,,True,False,Dev Khan,dev.khan@example.com,India,15-Dec-2024,False,,Card,234.3,2025.0,,True
+O00209,C0027,2026-01-25,330.92,GBP,Completed,,True,False,Meera Jain,meera.jain@corp.org,United States,29/03/2025,False,2025-10-30,Card,330.92,2026.0,-87.0,True
+O00210,C0024,2025-04-30,135.69,EUR,Pending,,True,False,José Mehta,josé.mehta@mail.com,Fr,20-Nov-2025,False,,,0.0,2025.0,,False
+O00211,C0035,2025-12-13,353.77,EUR,Completed,,True,False,Vihaan Verma,MISSING,France,11/12/2024,True,,Card,353.77,2025.0,,True
+O00212,C0006,2026-01-01,0.0,INR,Pending,,False,False,Kavya Sharma,kavya.sharma@example.com,France,16-Dec-2024,False,,,0.0,2026.0,,True
+O00213,C0044,2025-11-18,,USD,Cancelled,,False,True,Manish Das,manish.das@corp.org,United States,2024-11-19,False,,,0.0,2025.0,,False
+O00214,C0018,2025-11-12,73.11,EUR,Unknown,,True,False,Aarav Jain,aarav.jain@example.com,In,2025-05-04,False,,,0.0,2025.0,,False
+O00215,C0059,2025-06-08,344.16,EUR,Completed,,True,False,Rahul Gupta,rahul.gupta@example.com,France,12/05/2025,False,,Cash,0.0,2025.0,,False
+O00216,C0038,2025-11-26,317.71,USD,Refunded,"[{'sku': 'SKU438', 'qty': 2, 'unit_price': 39.64}, {'sku': 'SKU702', 'qty': 3, 'unit_price': 87.15}]",True,False,  Arjun Verma  ,arjun.verma@mail.com,France,2024-07-27,False,,,0.0,2025.0,,False
+O00217,C0049,2025-12-01,306.59,GBP,Complete,,True,False,Dev Khan,dev.khan@example.com,India,15-Dec-2024,False,,UPI,0.0,2025.0,,False
+O00218,C0025,2025-12-09,188.46,EUR,Completed,"[{'sku': 'SKU624', 'qty': 1, 'unit_price': 54.64}, {'sku': 'SKU646', 'qty': 1, 'unit_price': 65.87}]",True,False,Aditya Gupta,aditya.gupta@mail.com,Es,30/07/2024,False,,,0.0,2025.0,,False
+O00219,C0036,2025-08-10,60.64,USD,Complete,,True,False,  Kabir Iyer  ,kabir.iyer@corp.org,Spain,2024-09-11,False,,Card,66.7,2025.0,,True
+O00220,C0030,2026-01-21,197.5,GBP,Refunded,,True,False,Arjun Jain,arjun.jain@mail.com,India,01-21-2025,False,,,0.0,2026.0,,False
+O00221,C0037,2025-10-09,501.85,GBP,Refunded,,True,False,Renée Mehta,renée.mehta@mail.com,India,04-27-2024,False,,,0.0,2025.0,,False
+O00222,C0021,2025-05-27,170.12,INR,Canceled,,True,False,  Renée Khan  ,renée.khan@corp.org,Germany,04-May-2024,False,,,0.0,2025.0,,False
+O00223,C0034,2025-03-11,365.9,GBP,Pending,"[{'sku': 'SKU156', 'qty': 3, 'unit_price': 5.6}, {'sku': 'SKU618', 'qty': 1, 'unit_price': 79.86}]",True,False,Riya Roy,riya.roy@corp.org,Bharat,02-Dec-2024,False,,,0.0,2025.0,,False
+O00224,C0032,2025-11-14,275.72,EUR,Cancelled,,True,False,Karan Sharma,karan.sharma@mail.com,U.K.,11/09/2025,False,,,0.0,2025.0,,False
+O00225,C0030,2025-04-08,232.57,EUR,Pending,,True,False,Arjun Jain,arjun.jain@mail.com,India,01-21-2025,False,,,0.0,2025.0,,False
+O00226,C0013,2025-04-25,152.38,GBP,Complete,,True,False,  Riya Sharma  ,riya.sharma@mail.com,United Kingdom,2025/06/12,False,2025-08-19,PayPal,152.38,2025.0,116.0,True
+O00227,C0014,2025-12-20,0.0,USD,Pending,,False,False,Aisha Singh,aisha.singh@mail.com,France,09-Nov-2025,False,,,0.0,2025.0,,True
+O00228,C0052,2025-12-21,284.69,USD,Completed,"[{'sku': 'SKU304', 'qty': 1, 'unit_price': 64.57}, {'sku': 'SKU924', 'qty': 3, 'unit_price': 102.7}]",True,False,Meera Singh,meera.singh@mail.com,De,30/09/2024,False,,Bank Transfer,284.69,2025.0,,True
+O00229,C0025,2025-05-21,262.42,EUR,Complete,,True,False,Aditya Gupta,aditya.gupta@mail.com,Es,30/07/2024,False,,Bank Transfer,262.42,2025.0,,True
+O00230,C0056,2026-01-11,128.39,INR,Shipped,,True,False,Łukasz Nair,łukasz.nair@example.com,U.K.,22/03/2025,False,2025-07-23,Cash,0.0,2026.0,-172.0,False
+O00231,C0021,2025-10-26,339.77,EUR,Pending,,True,False,  Renée Khan  ,renée.khan@corp.org,Germany,04-May-2024,False,,,0.0,2025.0,,False
+O00232,C0051,2025-09-18,309.25,GBP,Shipped,"[{'sku': 'SKU555', 'qty': 1, 'unit_price': 55.29}, {'sku': 'SKU391', 'qty': 3, 'unit_price': 22.06}, {'sku': 'SKU259', 'qty': 1, 'unit_price': 37.1}, {'sku': 'SKU347', 'qty': 2, 'unit_price': 60.33}]",True,False,Manish Sharma,MISSING,In,2026/01/13,True,,Bank Transfer,309.25,2025.0,,True
+O00233,C0049,2025-04-03,44.34,GBP,Pending,"[{'sku': 'SKU990', 'qty': 2, 'unit_price': 41.66}, {'sku': 'SKU816', 'qty': 1, 'unit_price': 51.95}, {'sku': 'SKU682', 'qty': 2, 'unit_price': 61.44}]",True,False,Dev Khan,dev.khan@example.com,India,15-Dec-2024,False,,,0.0,2025.0,,False
+O00234,C0029,2025-10-06,297.87,USD,Cancelled,,True,False,Riya Patel,riya.patel@example.com,De,29/03/2024,False,,,0.0,2025.0,,False
+O00235,C0050,2025-12-05,49.27,INR,Shipped,,True,False,Ishaan Iyer,ishaan.iyer@mail.com,Spain,01-Dec-2024,False,2025-10-18,Bank Transfer,29.56,2025.0,-48.0,False
+O00235,C0050,2025-12-05,49.27,INR,Shipped,,True,False,Ishaan Iyer,ishaan.iyer@mail.com,Spain,01-Dec-2024,False,,PayPal,19.71,2025.0,,False
+O00236,C0054,2025-11-12,295.39,EUR,Refunded,"[{'sku': 'SKU159', 'qty': 2, 'unit_price': 73.93}, {'sku': 'SKU468', 'qty': 1, 'unit_price': 19.57}, {'sku': 'SKU358', 'qty': 3, 'unit_price': 94.28}]",True,False,José Iyer,josé.iyer@example.com,United Kingdom,2024-05-26,False,,,0.0,2025.0,,False
+O00237,C0040,2025-11-26,110.54,INR,Completed,,True,False,Manish Jain,manish.jain@mail.com,Germany,18-Jun-2024,False,2025-09-23,Bank Transfer,110.54,2025.0,-64.0,True
+O00238,C0035,2025-06-05,190.51,GBP,Completed,,True,False,Vihaan Verma,MISSING,France,11/12/2024,True,2025-07-02,PayPal,0.0,2025.0,27.0,False
+O00239,C0010,2025-01-12,17.38,EUR,Pending,,True,False,Maya Jain,maya.jain@example.com,Spain,2024/09/23,False,,,0.0,2025.0,,False
+O00240,C0053,2026-01-22,228.74,INR,Refunded,,True,False,Søren Khan,søren.khan@corp.org,Fr,03-May-2024,False,,,0.0,2026.0,,False

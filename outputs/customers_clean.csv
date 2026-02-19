@@ -1,0 +1,61 @@
+customer_id,name,email,country,signup_date,email_missing
+C0001,Anaya Mehta,anaya.mehta@example.com,In,30-Sep-2025,False
+C0002,Søren Patel,søren.patel@mail.com,Spain,2024/05/14,False
+C0003,Neha Sharma,josé.nair@corp.org,United States,2024/01/20,False
+C0004,Manish Singh,manish.singh@mail.com,France,24-Apr-2025,False
+C0005,Rohan Nair,rohan.nair@mail.com,Us,01-Oct-2024,False
+C0006,Kavya Sharma,kavya.sharma@example.com,France,16-Dec-2024,False
+C0007,Søren Jain,søren.jain@corp.org,United Kingdom,2024/02/29,False
+C0008,François Khan,françois.khan@corp.org,United Kingdom,2024-10-04,False
+C0009,Karan Gupta,karan.gupta@corp.org,U.S.,27-Apr-2025,False
+C0010,Maya Jain,maya.jain@example.com,Spain,2024/09/23,False
+C0011,José Nair,josé.nair@corp.org,France,09-15-2025,False
+C0012,Søren Iyer,søren.iyer@mail.com,India,08-15-2025,False
+C0013,  Riya Sharma  ,riya.sharma@mail.com,United Kingdom,2025/06/12,False
+C0014,Aisha Singh,aisha.singh@mail.com,France,09-Nov-2025,False
+C0015,Ishaan Khan,ishaan.khan@corp.org,United Kingdom,06-24-2025,False
+C0016,Tanish Gupta,tanish.gupta@example.com,Spain,05-13-2024,False
+C0017,  Zoë Mehta  ,zoë.mehta@mail.com,United States,2025-10-05,False
+C0018,Aarav Jain,aarav.jain@example.com,In,2025-05-04,False
+C0019,Ishaan Roy,ishaan.roy@example.com,United States,03-14-2024,False
+C0020,Zoë Nair,zoë.nair@corp.org,Us,11-Aug-2024,False
+C0021,  Renée Khan  ,renée.khan@corp.org,Germany,04-May-2024,False
+C0022,Dev Patel,dev.patel@example.com,U.S.,2025/12/26,False
+C0023,Rohan Sharma,rohan.sharma@example.com,United States,29-Jun-2025,False
+C0024,José Mehta,josé.mehta@mail.com,Fr,20-Nov-2025,False
+C0025,Aditya Gupta,aditya.gupta@mail.com,Es,30/07/2024,False
+C0026,Rohan Roy,rohan.roy@example.com,Spain,21-Apr-2025,False
+C0027,Meera Jain,meera.jain@corp.org,United States,29/03/2025,False
+C0028,François Singh,françois.singh@example.com,India,2025/07/18,False
+C0029,Riya Patel,riya.patel@example.com,De,29/03/2024,False
+C0030,Arjun Jain,arjun.jain@mail.com,India,01-21-2025,False
+C0031,François Jain,françois.jain@mail.com,U.S.,28/04/2025,False
+C0032,Karan Sharma,karan.sharma@mail.com,U.K.,11/09/2025,False
+C0033,Diya Mehta,diya.mehta@corp.org,India,2025-05-07,False
+C0034,Riya Roy,riya.roy@corp.org,Bharat,02-Dec-2024,False
+C0035,Vihaan Verma,MISSING,France,11/12/2024,True
+C0036,  Kabir Iyer  ,kabir.iyer@corp.org,Spain,2024-09-11,False
+C0037,Renée Mehta,renée.mehta@mail.com,India,04-27-2024,False
+C0038,  Arjun Verma  ,arjun.verma@mail.com,France,2024-07-27,False
+C0039,Meera Verma,meera.verma@corp.org,Spain,04-19-2024,False
+C0040,Manish Jain,manish.jain@mail.com,Germany,18-Jun-2024,False
+C0041,Sneha Das,sneha.das@corp.org,De,02-Oct-2025,False
+C0042,Arjun Patel,arjun.patel@corp.org,France,2025-01-29,False
+C0043,Siddharth Nair,siddharth.nair@example.com,Germany,2024/03/09,False
+C0044,Manish Das,manish.das@corp.org,United States,2024-11-19,False
+C0045,Aditya Das,MISSING,United Kingdom,07-22-2024,True
+C0046,Kavya Sharma,kavya.sharma@mail.com,In,2025/05/12,False
+C0047,Karan Gupta,MISSING,U.K.,14-Sep-2025,True
+C0048,Ira Khan,invalid_email,U.K.,2024/01/10,False
+C0049,Dev Khan,dev.khan@example.com,India,15-Dec-2024,False
+C0050,Ishaan Iyer,ishaan.iyer@mail.com,Spain,01-Dec-2024,False
+C0051,Manish Sharma,MISSING,In,2026/01/13,True
+C0052,Meera Singh,meera.singh@mail.com,De,30/09/2024,False
+C0053,Søren Khan,søren.khan@corp.org,Fr,03-May-2024,False
+C0054,José Iyer,josé.iyer@example.com,United Kingdom,2024-05-26,False
+C0055,Vivek Roy,vivek.roy@example.com,Germany,12-24-2024,False
+C0056,Łukasz Nair,łukasz.nair@example.com,U.K.,22/03/2025,False
+C0057,  Kavya Das  ,kavya.das@corp.org,Spain,01/09/2024,False
+C0058,  Renée Verma  ,renée.verma@mail.com,Germany,2024-11-22,False
+C0059,Rahul Gupta,rahul.gupta@example.com,France,12/05/2025,False
+C0060,Aarav Das,aarav.das@corp.org,India,12-Aug-2024,False
