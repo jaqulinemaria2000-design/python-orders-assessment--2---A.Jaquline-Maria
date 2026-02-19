@@ -73,8 +73,4 @@ This project implements a small analytical pipeline that ingests data from CSV, 
 - Loaded cleaned dataframes into a SQLite database (`outputs/analysis.db`).
 - Executed SQL queries to answer business questions (Top customers, Unpaid orders by country, etc.).
 
-## Data Issues Identified
-- **Missing Emails**: Some customer records lacked email addresses.
-- **Duplicate Records**: Duplicate entries were found in Customers and Payments.
-- **Invalid Amounts**: Some orders had negative or zero amounts.
-- **Country Names**: Variations like 'usa', 'USA' were standardized.
+
