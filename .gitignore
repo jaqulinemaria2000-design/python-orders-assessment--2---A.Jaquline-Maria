@@ -8,7 +8,6 @@ env/
 venv/
 .env
 
-# Temporary debug files
 debug_output.txt
 output2.txt
 output3.txt
@@ -20,5 +19,4 @@ inspect_data.py
 query_db.py
 run_sqlite.py
 # OS
-.DS_Store
 Thumbs.db
