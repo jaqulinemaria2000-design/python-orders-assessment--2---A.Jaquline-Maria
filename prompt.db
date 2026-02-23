@@ -1,0 +1,268 @@
+Objective: 
+Build a small analytical pipeline that: 
+
+Ingests data from CSV, JSON, and Excel 
+
+Cleans and validates data quality 
+
+Transforms and enriches datasets using pandas 
+
+Uses SQL to answer analytical questions 
+
+Produces clear, reproducible outputs 
+ 
+
+Data Sets:  
+1. Customers: (In csv Format) 
+
+column 
+
+description 
+
+customer_id 
+
+Unique customer ID 
+
+name 
+
+Customer name 
+
+email 
+
+Email address 
+
+country 
+
+Country 
+
+signup_date 
+
+Signup date 
+
+ 
+2. Orders: (In Json Format and may have nested records as well) 
+Eg. 
+{ 
+
+  "order_id": "O123", 
+
+  "customer_id": "C45", 
+
+  "order_date": "2025-11-02", 
+
+  "amount": 250.75, 
+
+  "currency": "USD", 
+
+  "status": "Completed" 
+
+} 
+
+3. payments (In Excel format): 
+ 
+
+order_id 
+
+payment_date 
+
+payment_method 
+
+paid_amount 
+
+ 
+
+Part 1: Data Ingestion (CSV, JSON, Excel) 
+
+Requirements: 
+
+Load all three datasets using pandas 
+
+Handle:  
+
+Encoding issues (if any) 
+
+Correct data types (dates, numeric fields) 
+
+Schema consistency across datasets 
+
+Expected Output: 
+
+Python script 
+
+Brief explanation:  
+
+How data types were handled 
+
+Any ingestion challenges 
+
+Part 2: Data Cleaning 
+
+ 
+Perform the following: 
+
+Customers 
+
+Handle missing emails (drop or flag with reason) 
+
+Remove duplicate customers 
+
+Standardize country names (e.g., usa, USA, United States) 
+
+Orders 
+
+Remove or flag invalid order amounts (≤ 0) 
+
+Normalize order status values 
+
+Identify outlier order amounts 
+
+Payments 
+
+Remove duplicate payment records 
+
+Identify missing payments for completed orders 
+
+Expected Output: 
+
+Cleaned DataFrames 
+
+Summary of:  
+
+Records removed 
+
+Records flagged 
+
+Key data quality issues found 
+
+Part 3: Data Transformation with pandas 
+
+ 
+
+Use merge / join / groupby / pivot / conditional logic. 
+
+Mandatory Transformations 
+
+Join customers ↔ orders ↔ payments 
+
+Create derived columns:  
+
+order_year 
+
+is_fully_paid (True / False) 
+
+payment_delay_days 
+
+Aggregations 
+
+Total revenue per country 
+
+Average order value per customer 
+
+Monthly revenue trend 
+
+Pivot 
+
+Revenue by country vs order status 
+
+Expected Output: 
+
+Final analytical DataFrame 
+
+Clear pandas logic 
+
+ 
+Part 4: Basic SQL Operations 
+ 
+
+Load the final cleaned dataset into SQLite DB. 
+Create schema and objects in SQLite DB. 
+Write SQL queries for: 
+
+Top 5 customers by total revenue 
+
+Countries with highest unpaid orders 
+
+Monthly revenue trend 
+
+Customers with more than 3 completed orders 
+
+Orders paid later than 7 days 
+
+Expected Output: 
+
+SQL scripts 
+
+Query results shown 
+ 
+ 
+
+Github folder structure: 
+── data/ 
+
+       ── customers.csv 
+       ── orders.json 
+       ── payments.xlsx 
+
+── src/ 
+
+      ── __init__.py 
+      ── ingestion.py 
+      ── cleaning.py 
+      ── transformation.py 
+      ── run_sqlite.py 
+      ── sql_analysis.sql 
+
+── outputs/ 
+
+      ── customers_clean.csv 
+      ── orders_clean.csv 
+      ── payments_clean.csv 
+      ── final_fact_orders.csv 
+      ── analysis.db (optional – this is sqlite db) 
+      ── aggregates/ 
+            ── revenue_by_country.csv 
+            ── avg_order_value_by_customer.csv 
+            ── monthly_revenue_trend.csv 
+            ── pivot_revenue_country_status.csv 
+ 
+── README.md 
+
+── requirements.txt 
+ 
+README.md must explain: 
+
+Approach & assumptions 
+
+Data issues found 
+
+How to run the code 
+
+
+Part 1: Data Ingestion (CSV, JSON, Excel) 
+
+Requirements: 
+
+Load all three datasets using pandas 
+
+Handle:  
+
+Encoding issues (if any) 
+
+Correct data types (dates, numeric fields) 
+
+Schema consistency across datasets 
+
+Expected Output: 
+
+Python script 
+
+Brief explanation:  
+
+How data types were handled 
+
+Any ingestion challenges
+
+ 
+
+ 
+need program and output for these things and explain
